@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container-main{
+    height: 12vh;
+    width: 100%;
+    background-color: #FAECE1;
+    box-sizing: border-box;
+}
+
+.link-logo-holder{
+    height: 12vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    align-items: center;
+    text-decoration: none;
+}
+
+.llh-actual{
+    border: 2px solid red;
+    }
+
+.a-tag-links{
+    /* margin-right: 10px; */
+}

@@ -1,8 +1,11 @@
-
-
+import "./app.css"
+import React from "react";
+import NavigationBar from "./components/navbar-section/NavigationBar.jsx";
 function App() {
   return (
-    <header>Hello from App.js</header>
+    
+      <NavigationBar />
+
   );
 }
 
