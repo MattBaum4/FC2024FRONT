@@ -18,12 +18,17 @@ a{
     width: 100%;
     background-color: #FAECE1;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .link-logo-holder{
     height: 12vh;
+    width: 66%;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -37,5 +42,5 @@ a{
     }
 
 .a-tag-links{
-    /* margin-right: 10px; */
+    margin-right: 10px;
 }
