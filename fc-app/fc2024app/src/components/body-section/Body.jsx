@@ -1,15 +1,11 @@
-import "./body.css"
-
+import "./body.css";
 
 const BodySection = () => {
-    return ( 
+  return (
     <>
-    <div className="body-pics">
-        
-        
-    </div>
-    
-    </> );
-}
- 
+      <div className="body-pics"></div>
+    </>
+  );
+};
+
 export default BodySection;
