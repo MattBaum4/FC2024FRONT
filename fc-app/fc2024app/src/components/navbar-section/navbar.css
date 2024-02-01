@@ -13,34 +13,53 @@ a{
     color: black;
 }
 
+a:hover{
+    color: #00becc;
+    
+    
+}
+
 .nav-container-main{
     height: 12vh;
     width: 100%;
-    background-color: #FAECE1;
+    background-color: #ffae78;
     box-sizing: border-box;
-    justify-content: center;
+    box-shadow: 1px 2px 2px 1px #00becc;
     align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between  ;
 }
-
+    
 .link-logo-holder{
-    height: 12vh;
-    width: 66%;
     font-family: 'Oswald', sans-serif;
     font-size: 26px;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     align-items: center;
     text-decoration: none;
+
 }
 
-.llh-actual{
+/* .llh-actual{
     border: 2px solid red;
-    }
+    } */
 
 .a-tag-links{
-    margin-right: 10px;
+    margin-right: 16px;
 }
+.a-tag-links1{
+    color: #FD7D00;
+    margin-right: 16px;
+}
+#logo-actual{
+    margin-top: 15px;
+    height: 180px;
+    width: auto;
+
+}
+
+
+  
