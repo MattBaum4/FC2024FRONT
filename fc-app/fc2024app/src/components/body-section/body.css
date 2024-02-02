@@ -1,9 +1,15 @@
-.body-pics {
-  width: 66%;
+.hero-section {
+  width: 100%;
   height: auto;
   margin: 5px auto;
   align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
+  background-color: #fed0b1;
+}
+
+.hero-img{
+  margin-top: 15px;
+  width: 100%;
 }
