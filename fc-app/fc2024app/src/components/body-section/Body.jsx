@@ -1,15 +1,18 @@
 import "./body.css";
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
 
 const BodySection = () => {
   return (
     <>
-      <div className="hero-section">
-         <img 
-         className="hero-img"
-         alt="poo" 
-         src="https://www.fuller.edu/wp-content/uploads/2023/04/Banner_4-1800x500-1.jpg"></img>
+      <div className="txt-section">
+       
+         </div>
+         <div className="card-container">
+          
       </div>
     </>
   );

@@ -1,15 +1,6 @@
-.hero-section {
-  width: 100%;
-  height: auto;
-  margin: 5px auto;
-  align-items: center;
-  justify-content: center;
-  /* display: flex; */
-  /* flex-direction: row; */
-  background-color: #fed0b1;
-}
-
-.hero-img{
-  margin-top: 15px;
-  width: 100%;
+.txt-section{
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  
 }
