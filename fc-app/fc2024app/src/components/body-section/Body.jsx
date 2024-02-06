@@ -1,19 +1,13 @@
 import "./body.css";
-import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
+import HeroImg from "../../assets/Future_Cruise.png"
 
 const BodySection = () => {
   return (
     <>
-      <div className="txt-section">
-       
+      <div className="hero-img">
+       <img id="hero1" src={HeroImg}></img>
          </div>
-         <div className="card-container">
-          
-      </div>
+        
     </>
   );
 };

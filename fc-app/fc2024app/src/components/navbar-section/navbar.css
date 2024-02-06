@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container{
+  background-color: #708090;
+  height: 6vh;
+  font-family: 'Monserrat', sans-serif ;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px 2px white;
+}
+
+.nav-list li {
+  margin-right: 40px; 
+}
+
+.nav-list ul {
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+  
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #00becc;
+}
