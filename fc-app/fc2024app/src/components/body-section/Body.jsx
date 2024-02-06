@@ -2,6 +2,7 @@ import "./body.css";
 import HeroImg from "../../assets/Future_Cruise.png";
 
 const BodySection = () => {
+ 
   return (
     <>
       <div className="hero-img">

@@ -1,6 +1,8 @@
 import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import {scrollToSection} from "../../util/scrollUtil"
+
 const NavigationBar = () => {
   return (
     <>
@@ -9,19 +11,20 @@ const NavigationBar = () => {
           <ul>
             <li>
               {" "}
-              <a href=" ">Book Online</a>
+              <a href="section1" onClick={() => scrollToSection("section1") }>Book Online</a>
+              
             </li>
             <li>
               {" "}
-              <a href=" ">About</a>
+              <a href="section2"  onClick={() => scrollToSection("section2") }>About</a>
             </li>
             <li>
               {" "}
-              <a href=" ">Contact</a>
+              <a href="section3"  onClick={() => scrollToSection("section3") }>Contact</a>
             </li>
             <li>
               {" "}
-              <a href=" ">Service Area</a>
+              <a href="section4"  onClick={() => scrollToSection("section4") }>Service Area</a>
             </li>
             <li>
               <a
