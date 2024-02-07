@@ -37,7 +37,7 @@ const NavigationBar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faInstagram} />
+                <FontAwesomeIcon className="font-icons" icon={faInstagram} />
               </a>
             </li>
             <li>
@@ -46,7 +46,7 @@ const NavigationBar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faTiktok} />
+                <FontAwesomeIcon className="font-icons" icon={faTiktok} />
               </a>
             </li>
           </ul>
