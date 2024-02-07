@@ -1,7 +1,14 @@
+import "./Book.css"
+
 const BookOnlineSection = () => {
+    
     return ( 
     <>
-    <h2>welcome to book</h2>
+        <div className="book-container">
+            <div className="book-txt-section">
+                
+            </div>
+        </div>
     </>
      );
 }

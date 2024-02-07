@@ -1,0 +1,20 @@
+.about-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FD7D00;
+    
+}
+
+.about-txt{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: white;
+    
+}
+#preem{
+    font-style: italic;
+    margin-right: 6px;
+    color: black;
+}

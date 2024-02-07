@@ -9,14 +9,19 @@ const NavigationBar = () => {
       <div className="nav-container">
         <div className="nav-list">
           <ul>
+            {/* <li>
+              {" "}
+              <a href="section1"  onClick={() => scrollToSection("section1") }>About</a>
+            </li> */}
+            
             <li>
               {" "}
-              <a href="section1" onClick={() => scrollToSection("section1") }>Book Online</a>
-              
+              <a href="section1" onClick={() => scrollToSection("section1") }>Services</a>
             </li>
             <li>
               {" "}
-              <a href="section2"  onClick={() => scrollToSection("section2") }>About</a>
+              <a href="section2" onClick={() => scrollToSection("section2") }>Book Online</a>
+              
             </li>
             <li>
               {" "}
@@ -28,16 +33,18 @@ const NavigationBar = () => {
             </li>
             <li>
               <a
-                href="tiktok.com/search/user?q=future cruise&t=1706749095039"
+                href="https://www.instagram.com/thefuturecruise/?hl=en"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/thefuturecruise/?hl=en"
+                href="https://www.tiktok.com/@futurecruise"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faTiktok} />
               </a>
