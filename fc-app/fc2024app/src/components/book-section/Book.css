@@ -2,23 +2,45 @@
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     color: black;
+    font-size: 60px;
+}
+
+.book-container{
+    background-color: #FAECE1;
+}
+
+.card-titles{
+    font-weight: 500;
+    font-size: 34px;
+}
+.card-pricing{
+    font-size: 30px;
 }
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
 }
-.card-actual{
-    border: 2px solid red;
-    width: 33%;
-    height: 50vh;
+.card-row{
+    border: 2px solid black;
+    height: 54vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin: 10px;
     
 }
 
 .card-imgs{
-    height: 250px;
-    width: auto;
+    height: 275px;
+    width: 350px;
+}
+
+.card-btns{
+    width: 125px;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
 }
