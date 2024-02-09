@@ -24,7 +24,7 @@ const NavigationBar = () => {
             </li>
             <li>
               {" "}
-              <a href="section4"  onClick={() => scrollToSection("section4") }>Service Area</a>
+              <Link to="/service-area">Service Area</Link>
             </li>
             <li>
               <a
