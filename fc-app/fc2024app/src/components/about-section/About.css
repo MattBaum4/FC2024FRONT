@@ -1,15 +1,15 @@
-.about-container{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #FD7D00;
-    
-}
+    .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #FD7D00;
+        
+    }
 
-.about-txt{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 36px;
+    .about-txt{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
     color: white;
     
 }
@@ -17,4 +17,46 @@
     font-style: italic;
     margin-right: 6px;
     color: black;
+}
+.dtl-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00BECC;
+    margin-top: 4px;
+}
+.complete-dtl-txt{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.int-ext-txt{
+    font-size: 50px;
+    color: white;
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00BECC;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.int-container,
+.ext-container {
+  /* flex: 1;  */
+  margin: 0 150px;
+}
+
+
+.int-txt,
+.ext-txt {
+  /* border: 2px solid black; */
+  padding: 10px; 
 }

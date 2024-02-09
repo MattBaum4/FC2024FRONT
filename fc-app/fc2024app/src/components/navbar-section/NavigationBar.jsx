@@ -14,10 +14,7 @@ const NavigationBar = () => {
               <a href="section1"  onClick={() => scrollToSection("section1") }>About</a>
             </li> */}
             
-            <li>
-              {" "}
-              <a href="section1" onClick={() => scrollToSection("section1") }>Services</a>
-            </li>
+          
             <li>
               {" "}
               <a href="section2" onClick={() => scrollToSection("section2") }>Book Online</a>

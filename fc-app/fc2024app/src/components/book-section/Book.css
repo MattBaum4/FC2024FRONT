@@ -1,9 +1,24 @@
-
-.book-container{
-    background-color: cadetblue;
+.book-txt-section{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: black;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+.card-actual{
+    border: 2px solid red;
+    width: 33%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
     
 }
 
-.book-txt-section{
-    font-family: 'Bebas Neue', sans-serif;
+.card-imgs{
+    height: 250px;
+    width: auto;
 }
