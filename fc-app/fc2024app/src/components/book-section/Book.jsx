@@ -14,7 +14,7 @@ const BookOnlineSection = () => {
     
     return ( 
     <>
-        <div className="book-container">
+        {/* <div className="book-container">
             <div className="book-txt-section">
                 <p>Our services</p>
             </div>
@@ -79,7 +79,7 @@ const BookOnlineSection = () => {
                 <Button className="card-btns" variant="primary">View Calendar</Button>
             </Card>
          </div>
-        </div>
+        </div> */}
     </>
      );
 }

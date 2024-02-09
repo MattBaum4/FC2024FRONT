@@ -2,27 +2,25 @@ import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import {scrollToSection} from "../../util/scrollUtil"
-
+import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <>
       <div className="nav-container">
         <div className="nav-list">
           <ul>
-            {/* <li>
-              {" "}
-              <a href="section1"  onClick={() => scrollToSection("section1") }>About</a>
-            </li> */}
-            
-          
+
             <li>
               {" "}
-              <a href="section2" onClick={() => scrollToSection("section2") }>Book Online</a>
-              
+              <Link to="/">Home</Link>
             </li>
             <li>
               {" "}
-              <a href="section3"  onClick={() => scrollToSection("section3") }>Contact</a>
+              <Link to="/calendar">View Calendar</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               {" "}
