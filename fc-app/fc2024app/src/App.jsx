@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactSection from "./components/contact-section/Contact.jsx";
 import CalendarSection from "./components/calendar-section/Calendar.jsx";
 import ServiceAreaSection from "./components/serviceArea-section/ServiceArea.jsx";
+import FooterSection from "./components/footer-section/Footer.jsx";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       </Routes>
       <AboutSection />
       <BookOnlineSection />
-      
+      <FooterSection />
 
        
       </div>
