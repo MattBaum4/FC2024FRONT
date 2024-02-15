@@ -9,9 +9,11 @@ import ContactSection from "./components/contact-section/Contact.jsx";
 import CalendarSection from "./components/calendar-section/Calendar.jsx";
 import ServiceAreaSection from "./components/serviceArea-section/ServiceArea.jsx";
 import FooterSection from "./components/footer-section/Footer.jsx";
-
-function App() {
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+function App( {children}) {
   return (
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
     <Router>
       <div>
       <NavigationBar />
@@ -24,10 +26,11 @@ function App() {
       <AboutSection />
       <BookOnlineSection />
       <FooterSection />
-
+      {children}
        
       </div>
     </Router>
+    </LocalizationProvider>
   );
 }
 
