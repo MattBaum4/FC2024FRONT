@@ -18,14 +18,14 @@ const NavigationBar = () => {
               {" "}
               <Link to="/calendar">View Calendar</Link>
             </li>
-            <li>
+            {/* <li>
               {" "}
               <Link to="/contact">Contact</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               {" "}
               <Link to="/service-area">Service Area</Link>
-            </li>
+            </li> */}
             <li>
               <a
                 href="https://www.instagram.com/thefuturecruise/?hl=en"

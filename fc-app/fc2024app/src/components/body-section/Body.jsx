@@ -1,8 +1,8 @@
 import "./body.css";
-import HeroImg from "../../assets/Future_Cruise.png";
-import React from "react";
+import HeroImg from "../../assets/Hero-Prob.png";
+
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
+
 import CardBody from "react-bootstrap/esm/CardBody";
 import CardText from "react-bootstrap/esm/CardText";
 import sedanOut from "../../assets/sedanExterior.jpg"
@@ -11,8 +11,37 @@ import midsizeIn from "../../assets/midsizeInterior.jpg"
 import midsizeOut from "../../assets/midsizeExterior.jpg"
 import truckIn from "../../assets/truckInterior.jpg"
 import truckOut from "../../assets/truckExterior.jpg"
+import { Form, Button } from "react-bootstrap";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
+
 const BodySection = () => {
  
+  //for email.js
+  const formRef = useRef();
+
+  const sendEmail = async (event) => {
+    event.preventDefault();
+
+    try {
+      const form = formRef.current;
+
+      // Information from emailjs to link my account to whomever emails the client
+      const response = await emailjs.sendForm(
+        "service_ylpr0l8",
+        "template_gtuv76k",
+        form,
+        "pyPG30-p25nCgWYpg"
+      );
+
+      window.alert("Email sent successfully", response);
+    } catch (error) {
+      window.alert("Email failed to send", error);
+    }
+  };
+
+
   return (
     <>
       <div className="hero-img">
@@ -129,6 +158,48 @@ const BodySection = () => {
                 <Button className="card-btns" variant="primary">View Calendar</Button>
             </Card>
          </div>
+        </div>
+
+        <div className="contact-section">
+          <h2>Hello</h2>
+          <Form ref={formRef} onSubmit={sendEmail}>
+        {/* Your form fields go here */}
+        <Form.Group controlId="formName">
+          <h4 className="txt-words">Name</h4>
+          <Form.Control
+            type="text"
+            placeholder="Ex: Tom Brady"
+            name="name"
+            required
+          />
+        </Form.Group>
+
+        <Form.Group controlId="formEmail">
+          <h4 className="txt-words">Email</h4>
+          <Form.Control
+            type="email"
+            placeholder="Ex: TomB@Patriots.com"
+            name="email"
+            required
+          />
+        </Form.Group>
+
+        <Form.Group className="form-msg-box" controlId="formMessage">
+          <h4 className="txt-words">Message</h4>
+          <Form.Control
+            as="textarea"
+            id="message-box"
+            rows={5} // Set an initial number of visible rows
+            placeholder="Enter your message"
+            name="message"
+            required
+          />
+        </Form.Group>
+
+        <Button variant="primary" type="submit">
+          Send Message
+        </Button>
+      </Form>
         </div>
     </>
   );

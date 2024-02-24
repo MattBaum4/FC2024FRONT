@@ -3,13 +3,14 @@
   padding: 0;
 }
 .nav-container {
-  background-color: #708090;
+  background-color: #00becc;
   height: 6vh;
   font-family: "Oswald", sans-serif;
   /* font-weight: 500; */
   font-size: 16px;
   box-sizing: border-box;
   box-shadow: 0 0 2px 2px white;
+
 }
 
 .nav-list li {
@@ -31,7 +32,7 @@
 }
 
 a:hover {
-  color: #00becc;
+  color: black;
 }
 
 .font-icons{

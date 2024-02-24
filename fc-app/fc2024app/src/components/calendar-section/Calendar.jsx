@@ -7,10 +7,7 @@ const CalendarSection = () => {
   return (
     <>
       <div className="calendar-contain">
-        <FullCalendar
-        plugins={[dayGridPlugin]} 
-        initialView="dayGridMonth" 
-        />
+        
       </div>
     </>
   );
