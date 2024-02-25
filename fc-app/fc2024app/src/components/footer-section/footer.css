@@ -5,6 +5,9 @@
     color: white;
     text-align: center;
     padding: 10px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* width: 99%; */
 }
 
 .fa-icons{

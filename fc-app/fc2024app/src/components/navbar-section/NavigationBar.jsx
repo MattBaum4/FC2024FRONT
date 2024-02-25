@@ -16,7 +16,7 @@ const NavigationBar = () => {
             </li>
             <li>
               {" "}
-              <Link to="/calendar">View Calendar</Link>
+              <Link to="/calendar">Book Online</Link>
             </li>
             {/* <li>
               {" "}
