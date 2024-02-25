@@ -162,44 +162,50 @@ const BodySection = () => {
 
         <div className="contact-section">
           <h2>Hello</h2>
-          <Form ref={formRef} onSubmit={sendEmail}>
+          <div className="emailjs-cont">
+          <Form className="form-real" ref={formRef} onSubmit={sendEmail}>
         {/* Your form fields go here */}
-        <Form.Group controlId="formName">
-          <h4 className="txt-words">Name</h4>
+          <Form.Group  controlId="formName">
+          <h4 className="txt-words">NAME</h4>
           <Form.Control
+            className="form-grps-ne"
             type="text"
-            placeholder="Ex: Tom Brady"
+            // placeholder="John Smith"
             name="name"
             required
           />
         </Form.Group>
 
-        <Form.Group controlId="formEmail">
-          <h4 className="txt-words">Email</h4>
+        <Form.Group  controlId="formEmail">
+          <h4 className="txt-words">EMAIL</h4>
           <Form.Control
+            className="form-grps-ne"
             type="email"
-            placeholder="Ex: TomB@Patriots.com"
+            // placeholder="JSmith@example.com"
             name="email"
             required
           />
         </Form.Group>
 
         <Form.Group className="form-msg-box" controlId="formMessage">
-          <h4 className="txt-words">Message</h4>
+          <h4 className="txt-words">MESSAGE</h4>
           <Form.Control
             as="textarea"
             id="message-box"
-            rows={5} // Set an initial number of visible rows
+            rows={8} // Set an initial number of visible rows
             placeholder="Enter your message"
             name="message"
             required
           />
         </Form.Group>
-
-        <Button variant="primary" type="submit">
+        <div id="sub-btn-cnt">
+          <Button className="btn-actual" variant="primary" type="submit">
           Send Message
         </Button>
+        </div>
+        
       </Form>
+          </div>
         </div>
     </>
   );
