@@ -14,26 +14,45 @@
   font-family: "Oswald", sans-serif;
   color: white;
   font-size: 24px;
+  margin: auto;
 }
 .form-real{
-  border: 2px solid black;
-  width: 50%;
+  /* border: 2px solid black; */
+  width: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   margin: auto;
+  align-items: center;
+}
+.form-holder-cont{
+  /* border: 2px solid blue; */
+  width: 100%;
   
+}
+
+.this-is-the-txt{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 .form-grps-ne{
   width: 50%;
+  font-family: "Oswald", sans-serif;
 }
 #message-box{
   width: 50%;
+  font-family: "Oswald", sans-serif;
 }
 #sub-btn-cnt{
   justify-content: center;
   
 }
 .btn-actual{
-  width: 50%;
+  width: 25%;
+  height: 30px;
+  color: white;
+  background-color: #00becc;
+  font-family: "Oswald", sans-serif;
 }

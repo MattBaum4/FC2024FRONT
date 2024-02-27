@@ -161,16 +161,20 @@ const BodySection = () => {
         </div>
 
         <div className="contact-section">
-          <h2>Hello</h2>
-          <div className="emailjs-cont">
+           <div className="emailjs-cont">
           <Form className="form-real" ref={formRef} onSubmit={sendEmail}>
+          <div classname="this-is-the-txt">
+          <h2>Get In Touch!</h2>
+          <p>Send Us An Email Using This Form<br></br> Or Feel Free To Text Us At (999)-999-9999 </p>
+          </div>
         {/* Your form fields go here */}
-          <Form.Group  controlId="formName">
+          <div className="form-holder-cont">
+            <Form.Group  controlId="formName">
           <h4 className="txt-words">NAME</h4>
           <Form.Control
             className="form-grps-ne"
             type="text"
-            // placeholder="John Smith"
+            placeholder="First and Last"
             name="name"
             required
           />
@@ -181,7 +185,7 @@ const BodySection = () => {
           <Form.Control
             className="form-grps-ne"
             type="email"
-            // placeholder="JSmith@example.com"
+            placeholder="example@example.com"
             name="email"
             required
           />
@@ -200,11 +204,13 @@ const BodySection = () => {
         </Form.Group>
         <div id="sub-btn-cnt">
           <Button className="btn-actual" variant="primary" type="submit">
-          Send Message
+          Submit  
         </Button>
         </div>
         
+          </div>
       </Form>
+          
           </div>
         </div>
     </>
